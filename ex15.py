@@ -1,10 +1,10 @@
-from  sys import argv
-prompt = '>'
-age=int(input(prompt))
-height= int(input(prompt))
-script,first = argv
+from sys import argv
+script, first = argv
 
-print('my file is:',script)
-print('my name is:',first)
-print('my age is :',age)
-print('my height is:',height)
+text=open(first)
+print(f"this is your file {first} ")
+print(text.read())
+
+text1=input('Enter text name:')
+a=open(text1)
+print(a.read())
