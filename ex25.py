@@ -14,3 +14,5 @@ z.d(x)
 print(z.e(ww))
 print(z.f(xx))
 print(z.g(xx))
+
+Print('hii)
